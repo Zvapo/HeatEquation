@@ -12,23 +12,15 @@ Introduction
 This package provides a numerical solver for the 2D Heat Equation with customizable parameters
 and visualization capabilities.
 
-It was developed as part of my MSc course "Geo-Energies with Data Science and Machine Learning" at Imperial College London.
-
 Installation
 ------------
 To install the package, clone the repository and install the requirements:
 
 .. code-block:: bash
 
-   git clone https://github.com/Zvapo/HeatEquation
-   cd HeatEquation
-
-Install the dependencies:
-
-.. code-block:: bash
-
+   git clone https://github.com/Zvapo/HeatEquation.git
+   cd heat-equation-solver
    pip install -r requirements.txt
-   conda env create -f environment.yml
 
 Usage
 -----
@@ -42,7 +34,7 @@ For example:
 
 .. code-block:: bash
 
-   python main.py --lx 1.0 --ly 1.0 --dx 0.1 --kappa 0.1 --dt 0.0005 --n-steps 1000
+   python main.py --lx 2.0 --ly 2.0 --dx 0.05 --kappa 0.5 --dt 0.0005 --n-steps 2000
 
 Indices and tables
 ==================
